@@ -14,4 +14,10 @@ public class HelloControllrt {
     public String hello(){
         return "SUCCESS" ;
     }
+
+
+    @RequestMapping("/sunshine")
+    public String test(){
+        return "success";
+    }
 }
